@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning Conference </title>
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keyword" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="">
+        <link rel="stylesheet" href="../Learning-Conference/css/main.css" type="text/css">
+        <style>
+          /* table{
+           
+          } */
+
+        </style>
+    </head>
+<body>
+  <header class="primary-header container group">
+        <h1 class="logotxt"><a href="index.html">Learning <br> Conference</a></h1>
+        <figure id="logofig"><img src="../Learning-Conference/images/cnference-img.jpg" width="200px" height="100px" id="logoimg"></figure>
+        <div >
+        <nav class="nav primary1-nav">
+          <ul class="menue" id="header-nav">
+            <li><a href="index.html">Home</a></li><!---->
+            <li><a href="speakers.html">Speakers</a></li><!---->
+            <li><a href="schedule.html">Schedule</a></li><!---->
+            <li><a href="venue.html">Venue</a></li><!---->
+            <li><a href="faq.html">FQA</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </nav>
+       </div>    
+    </header> 
+    <section class="sec-register">
+      <div class="Rhead">
+      <h1>Register</h1>
+      <p>Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. 
+          Conference passes only cost RS 800, one of the best values you'll find.</p>
+      </div>
+    </section>
+    <section class="register-body">
+      <div id="reg-all">
+      <article class="arti-reg">
+        <h1>Purchase a Conference Pass</h1>
+        <h3>Rs 800 PER PASS</h3>
+        <P>Purchase your Learning Conference pass using the form to the right. 
+        Multiple passes may be purchased within the same order, 
+        so feel free to bring a friend or two along. Once your order is 
+        finished we’ll follow up and provide a receipt for your purchase. See you soon!</P>
+
+        <h2>Why Attend?</h2>
+        <ol id="ul-list">
+        <li>Over twenty world-class speakers</li>
+        <li>One full day of workshops and two full days of presentations</li>
+        <li>Hosted at The banglore conference hall, a IT Hub</li>
+        <li>September in Banglore is simply amazing</li>
+      </ol>
+
+      </article>
+
+      <article class="arti-reg">
+        <form class="pass-reg" novalidate>
+          <table>
+            <tr><td><label for="fname">Full Name</label><br>
+              <input type="text" id="fullname" name="fullname" placeholder="Full Name" onblur="validatefullname()"></td>
+              <td><span id='errorfname'></span></td>
+            </tr>
+            <tr>
+              <td><label for="Email">Email</label><br>
+              <input type="email" id="registeremail" name="registeremail" placeholder="Email" onblur="validateemail()"></td>
+              <td><span id='erroremail'></span></td>
+            </tr>
+            <tr>
+              <td><label for="npass">Number of Passes</label><br>
+              <input type="number" value="1" id="npass" name="num_pass" onblur="validatenpass()"></td>
+              <td><span id='errornpass'></span></td>
+            </tr>
+            <tr>
+              <td><label for="comment">Add Comment</label><br>
+              <textarea name="txt" id="comment" cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2"><a href="purchase.html"><button id="purchase_btn" name="purchase">Purchase</button></a></td>
+            </tr>
+        </table>
+        </form>
+
+      </article>
+    </div>
+     
+
+    </section>
+<footer class="footer-sec">
+      <section id="footer-sec1">
+          <div class="footer-about1">
+          <div class="footer-about">
+              <a href="index.html"><h1>Learning <br> Conference</h1></a>
+              <h3>Created by Learning Designers for Learning Designers!</h3>
+              <h2>Connect With Us</h2>
+                    <ul id='social'>
+                        <li> <img src="../Learning-Conference/images/facebook.png"></li>
+                        <li> <img src="../Learning-Conference/images/google-icon.png"></li>
+                        <li> <img src="../Learning-Conference/images/linkedin-icon1.png"></li>
+                        <li><img src="../Learning-Conference/images/mail-icon.png"></li>
+                        <li><img src="../Learning-Conference/images/youtube-icon.png"></li>
+                    </ul>
+              <h3>&copy;2021 The Learning Conference</h3>
+          </div>
+          <div class="footer-about">
+              <nav>
+                  <h2>USEFUL INFORMATION</h2>
+                  <ul class="menuef">
+                      <li><a href="index.html">Home</a></li><!---->
+                      <li><a href="speakers.html">Speakers</a></li><!---->
+                      <li><a href="schedule.html">Schedule</a></li><!---->
+                      <li><a href="venue.html">Venue</a></li><!---->
+                      <li><a href="">FQA</a></li><!---->
+                      <li><a href="">News</a></li><!---->
+                      <li><a href="register.html">Register</a></li>
+                  </ul>
+              </nav>
+          </div>
+          <div class="footer-about">
+              <h2>SIGN UP TO OUR NEWSLETTER</h2>
+              <form>
+                <input type="text" placeholder="First Name" id="firstnamenews" onblur="validatefname()"><br>
+                <span id="errorfoot1"></span>
+                <input type="email" placeholder="Email Id" id="emailnews"  onblur="validationemail()"><br>
+                <span id="errorfoot2"></span><br>
+                <input type="submit" id="submitfornews">
+              </form>
+          </div>
+      </div>
+  </section>
+        
+</footer>
+
+<script src='../Learning-Conference/validation.js'></script>
+</body>
+</html>

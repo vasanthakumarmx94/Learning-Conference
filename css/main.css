@@ -1,0 +1,705 @@
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	                                        display: block;
+                                            }
+
+            /*Home page body*/
+            body {
+                background: #293f50;
+                color: #888;
+                font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                margin: 0px;
+                }
+            h1, h2, h3, h4 {
+                            color: #648880;
+                            }
+            h1 {
+                font-size: 36px;
+                line-height: 44px;
+                }
+            h2 {
+                font-size: 24px;
+                line-height: 44px;
+                }
+            h3 {
+                font-size: 21px;
+                }
+            h4 {
+                 font-size: 18px;
+                }
+
+            h5 {
+            color: #3480b9;
+            font-size: 14px;
+            font-weight: 800;
+            text-transform: uppercase;
+            }
+            .primary-header{
+              width: 1307px;
+              position: fixed;
+              margin-bottom: 0px;
+              background-color: rgb(34, 29, 29);
+            }
+            .primary-header a,
+            .primary-footer a {
+            color: #fff;
+            }
+            .primary-header a:hover,
+            .primary-footer a:hover {
+            color: #648880;
+            } 
+            ol, ul {
+	        list-style: none;
+            }
+            .container{
+            margin: 0px;
+            
+            }
+            .container{
+                padding-left: 20px;
+                padding-right: 20px;
+
+            }
+            /* #section-bg{
+            background-image: url(../Fun-Conference/images/cnf3.jpg) ;
+            background-size:600px;
+            background-repeat: no-repeat;
+            
+            } */
+            /* /////  Home page ////*/
+            .descr{
+                color: #fff;
+                line-height: 30px;
+                padding: 200px 80px 10px 50px;
+                text-align: center;
+                }
+            .descr h2 {
+                font-size: 25px;
+                }
+            .descr p {
+                font-size: 24px;
+                font-weight: 100;
+                font-family:Arial, Helvetica, sans-serif;
+                }
+            /* Clearfix */
+            .group:before,
+            .group:after {
+                        content: "";
+                        display: table;
+                        }
+            /*logo figur */
+            #logofig{
+                text-align: right;
+                margin-top: 10px;
+                }
+            #logoimg:hover{
+                    transform: scale(1.5,1.5);
+                    }
+            /* primary header*/
+            .logotxt {
+                    
+                    float: left;
+                    font-size: 38px;
+                    font-weight: 100;
+                    letter-spacing: .5px;
+                    line-height: 40px;
+                   
+                    text-transform: uppercase;
+                    margin-top: 10px;
+                    margin-bottom: 0px;
+                    }
+            .primary1-nav {
+                    font-size: 15px;
+                    font-weight: 300;
+                    letter-spacing: .5px;
+                    text-transform: uppercase;
+                    
+                    }
+            /* header Nav*/
+            #header-nav{
+                padding: 5px;
+                background-color: rgb(101, 79, 104);
+                border-radius: 10px;
+            }
+           
+           .nav li{
+                display: inline-block;
+                color: cornsilk;
+                text-decoration: none;    
+            }
+            .nav li:last-child {
+                    margin-right: 0;
+                    }
+           li a{
+                display: block;
+                color: cornsilk;
+                text-align: center;
+                padding-top: 2px;
+                text-decoration: none;
+                width: 120px;
+                height: 30px;
+                font-size: 15px;
+            }
+            .menue>li a:hover{
+                transition-duration: 2s;
+                background-color: darkturquoise;
+                transition-property: background-color;
+                transform-origin: left;
+                width: 120px;
+                height: 30px;
+                border-radius: 10px;
+                color: black;
+                font-size: 18px;
+                font-weight: 700;
+               
+            } 
+            /*Button*/
+            .btn {
+                border-radius: 5px;
+                color: #fff;
+                cursor: pointer;
+                display: inline-block;
+                font-weight: 800;
+                letter-spacing: .5px;
+                margin: 0;
+                text-transform: uppercase;
+                }
+            .btn-alt {
+                    border: 1px solid #fff;
+                    padding: 10px 30px;
+                    }
+            .btn-alt:hover {
+                    background: #fff;
+                    color: #648880;
+                    width: 150px;
+                    height: 30px;
+
+                    }
+            .btn-default {
+                    border: 0;
+                    background: #648880;
+                    padding: 11px 30px;
+                    font-size: 14px;
+                    }
+            .btn-default:hover {
+                    background: #77a198;
+                    }
+        
+        /*Middle important details about event*/
+            #mdiv{
+                height: 450px;
+                border-radius: 20px;
+                background-color:white;
+                }
+            .section-body{
+                        display: flex;
+                        }
+            .div-cards{
+                    border: 2px solid rgb(228, 228, 178);
+                    width: 300px;
+                    height: 380px;
+                    margin: 20px 20px 30px 10px;
+                    color:black;
+                    border-radius: 10px;
+                    padding-left: 5px;
+                    }
+            .div-cards:hover{
+                    border: 2px solid rgb(15, 15, 13);
+                    color:black;
+                    border-radius: 10px;
+                   
+
+
+                    }
+            .div-cards h3,.div-cards a{
+                    text-decoration: none;
+                    color: cadetblue;
+                    margin: 5px 0px 5px 0px;
+                    }
+            .div-cards p{
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: 400;
+                    
+                    font-size: 15px;
+                    }
+            .div-cards h3:hover{
+                              color:royalblue;
+       
+                              }
+            .div-cards img{
+                      border-radius: 20px;
+                      display: block;
+                      margin:0px 10px 0px 10px ;
+                      width: 280px;
+                      height: 200px;
+                    }
+    /* How you learn, our news, Ticket book*/
+#howyl,#ournews{
+height: 600px;
+border: 2px solid lightskyblue;
+border-radius: 20px;
+}
+#howyl{
+margin-top: 10px;
+margin-bottom: 10px;
+align-items: center;
+background-color:rgb(70, 49, 77);
+
+}
+.body-content h1{
+text-align: center;
+font-size: 70px;
+color: whitesmoke;
+}
+.body-content h3{
+text-align: center;
+font-size: 20px;
+color: whitesmoke;
+line-height: 25px;
+}
+#hbtn-howyl{
+  width: 150px;
+  height: 30px;
+  border: palegreen solid 2px;
+  border-radius: 5px;
+  margin-top: 20px;
+  align-self: start;
+}
+.howyl-card-all{
+display:inline-flex;
+margin: 20px;
+width: 1200px;
+height: 250px;
+margin-left: 70px;
+text-align: center;
+}
+/* .howyl-card{
+border-radius: 10px;
+padding: 5px 5px 5px;
+width: inherit;
+height:inherit; 
+margin: 0px 10px 0px;
+background-image: linear-gradient(rgb(47, 71, 99), rgb(44, 40, 41) ,rgb(60, 43, 65));
+transition-duration: 2s;
+} */
+.howyl-card{
+border-radius: 10px;
+padding: 5px 5px 5px;
+width: inherit;
+height:inherit; 
+margin: 0px 10px 0px;
+background-image: linear-gradient(rgb(47, 71, 99), rgb(44, 40, 41) ,rgb(60, 43, 65));
+transition-duration: 1s;
+} 
+.howyl-card:hover{
+transform: rotatex(360deg);
+
+
+
+}
+.howyl-card  h2{
+color: rgb(12, 13, 14);
+font-size: 30px;
+
+}
+/* Our News*/
+#ournews{
+margin-top: 10px;
+margin-bottom: 10px;
+align-items: center;
+background-image: repeating-linear-gradient(-45deg,rgb(76, 76, 92),rgb(77, 64, 78) 1%);
+}
+.ournews-card-all{
+display:inline-flex;
+margin: 20px;
+width: 1200px;
+height: 250px;
+margin-left: 70px;
+text-align: center;
+}
+.ournews-card{
+background-color: rgb(134, 149, 168);
+border-radius: 10px;
+padding: 5px 5px 5px;
+width: inherit;
+height:inherit; 
+margin: 0px 10px 0px;
+}
+.ournews-card:hover{
+border: wheat 4px solid;
+}
+video{
+width: 350px;
+height: 200px;
+
+}
+.ournews-card h3{
+height: 30px;
+border-radius: 5px;
+margin-top: 5px;
+font-size: 15px;
+background-color: rgb(80, 59, 85);
+}
+.ournews-card img{
+width: 300px;
+height: 200px;
+}
+
+/* Ticket booking or pass booking */
+#ticket{
+height: 750px;
+border: 2px solid lightskyblue;
+border-radius: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+align-items: center;
+background-color: rgb(74, 40, 75);
+}
+.ticket-book{
+display:inline-flex;
+margin: 20px;
+width: 1200px;
+height: 500px;
+margin-left: 70px;
+text-align: center;
+}
+.ticket-card{
+background-color: rgb(134, 149, 168);
+border-radius: 10px;
+padding: 5px 5px 5px;
+width: 300px;
+height:400px; 
+margin: 0px 10px 0px;
+border: 5px solid darkolivegreen;
+border-radius: 10px;
+border-image: url(../Fun-Conference/images/blockframe4.jpg) 10;    
+}
+.ticket-card:hover{
+border: 5px solid rgb(43, 30, 7);
+border-radius: 10px;
+}
+.ticket-card h3,.ticket-card hr{
+margin-top: 30px;
+}
+.ticket-card-side{
+background-color: rgb(134, 149, 168);
+border-radius: 10px;
+padding: 5px 5px 5px;
+width: 500px;
+height:300px; 
+margin: 0px 10px 10px 50px;
+border: 4px solid rgb(94, 47, 41);
+padding: 20px 10px;
+
+}
+.ticket-card-side h2{
+color: saddlebrown;
+display: inline;
+background-color: cornflowerblue;
+}
+#div-note{
+border: 3px solid rgb(104, 57, 94);
+border-left: 10px solid rgb(104, 57, 94);
+text-align: left;
+margin-bottom: 40px;
+padding: 5px;
+}
+#div-note aside{
+color: black;
+font-weight: 200;
+display: inline;
+}
+#qute-note q{
+color: rgb(121, 108, 34);
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/*footer designe*/
+
+#footer-sec1{
+  
+    height: 380px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: rgb(12, 11, 12);
+}
+.footer-about1{
+    display:inline-flex;
+    margin: 0px;
+    width: 1200px;
+    height: 400px;
+    margin-left: 50px;
+}
+.footer-about{
+    width: inherit;
+    height: inherit;
+    margin-left: 0px;
+    padding-left: 0px;  
+}
+#social{
+  display:flex;
+ align-content:flex-start;
+ /* border: 2px solid red; */
+ padding: 0px;
+  
+}
+#social a{
+  margin: 0px;
+  align-items: flex-start;
+
+}
+.fab{
+  width: 200px;
+  height: 100px;
+}
+ #social i{
+width: 400px;
+height: 50px;
+border-radius: 5px;
+margin: 5px;
+}
+#social img:hover{
+  width: 60px;
+  height: 60px;
+  }
+  #fb i{
+    width: 300px;
+    height: 100px;
+  }
+  #social li{
+    width: 65px;
+    height: 65px;
+  } 
+small{
+    font-size: 20px;
+}
+.footer-about h1{
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+.footer-about h3{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menuef{
+        margin:10px 30px 10px 40px ;
+        text-align: center;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+.menuef a:hover{
+        color: blue;
+
+    }
+.footer-about input{
+        width: 300px;
+        height: 40px;
+        margin-bottom: 10px;
+        align-items: center;
+        background-color: rgb(90, 69, 109);
+        color: cornsilk;
+        font-size: 20px;
+    }
+    .footer-about [type="submit"]{
+        width: 150px;
+        height: 40px;
+    }
+    a{
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .footer-about h1:hover{
+        color: rgb(189, 155, 192);
+    }
+
+
+/* /////////Register page //////////// */
+.sec-register{
+    color: #fff;
+    line-height: 30px;
+    padding: 5px 0px 0px 0px;
+    text-align: center;
+    width: inherit;
+    background-color: rgb(70, 136, 128);
+    
+   
+  }
+  .arti-reg{
+    width: 600px;
+    height: 500px;
+    margin: 20px 20px 20px 40px;
+    padding-left:20px ;
+  }
+  .sec-register p{
+    font-size: 25px;
+    text-align: center;
+    line-height: 2;
+    padding: 10px 100px 10px 100px ;
+    margin-top: 10px;
+  }
+  .register-body{
+    font-size: 20px;
+  }
+  #reg-all{
+    display: inline-flex;
+  }
+    .Rhead h1{
+      margin-top: 220px;
+      color: violet;
+      font-size: 50px;
+      margin-bottom: 5px;
+    }
+    .register-body{
+      background-color: whitesmoke;
+      margin: 0px 0px 10px 0px;
+      border-radius: 10px;
+    }
+    .register-body ul{
+      list-style: disc;  
+    }
+    #ul-list{
+      list-style: square;
+    }
+    .pass-reg input{
+      width: 300px;
+      height: 40px;
+      border: 3px solid rgb(185, 100, 115);
+
+    }
+    .pass-reg input:hover{
+      border-color: rgb(71, 132, 153);
+      border-radius: 5px;
+    }
+    .pass-reg label{
+      color: teal;
+      font-size: 20px;
+    }
+   .pass-reg button{
+     background-color: rgb(43, 139, 80);
+     color: navy;
+     width: 200px;
+     height: 35px;
+     font-size: 20px;
+   }
+   .pass-reg button:hover{
+     background-color: pink;
+   }
+
+
+   /*/////////Speaker page////////////*/
+   #speekers{
+    border:2px red solid;
+    width: inherit;
+    height: inherit;
+    background-color: rgb(81, 119, 121);
+    }
+    .speaker-h h1{
+    margin-top: 100px;
+    font-size: 60px;
+    color: lavenderblush;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+    .speaker-h h3{
+    color: lavenderblush;
+    text-align: center;
+    margin-bottom: 4px;
+    }
+    .speaker-h h2{
+    margin-top: 100px;
+    color: rgb(57, 24, 88);
+    font-size: 50px;
+    text-align: center;
+    }
+    .Speaker-det{
+    border: 6px solid rgb(79, 128, 79);
+    height: 575px;
+    width: 1100px;
+    display: inline-flex;
+    margin-left: 80px ;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-left: 60px solid rgb(30, 39, 39);
+    }
+    .Speaker-det:hover{
+    border-color: rgb(95, 75, 75);
+    }
+    .Speaker-details{
+    border: 6px solid dimgrey ;
+    width: 600px;
+    height: 543px;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 0px 20px;
+    background-color: rgb(87, 48, 82);
+    font-size: 20px;
+    color: rgb(182, 155, 164);
+    text-align: justify;
+    }
+    .Speaker-details h3{
+    color: rgb(92, 161, 218);
+    }
+    .Speaker-bio h2,.Speaker-bio h3{
+    margin: 2px;
+    }
+    .Speaker-bio{
+    border: 6px solid dimgrey;
+    width: 400px;
+    height: 523px;
+    text-align:justify;
+    padding: 20px;
+    color: lightcoral;
+    background-color: rgb(26, 26, 34);
+    }
+    .Speaker-bio img{
+    display: block; 
+    width: 300px;
+    height: 200px;
+    }
+    /*videos*/
+    .video-det{
+      border: 6px solid rgb(79, 128, 79);
+      border-radius: 10px;
+      height: 490px;
+      width: 1100px;
+      display: inline-flex;
+      margin-left: 80px ;
+      margin-right: 30px;
+      margin-top: 200px;
+      margin-bottom: 10px;
+      
+      }
+      .video-details{
+        width: 660px;
+        height: 450px;
+        margin: 0px 0px 0px 0px;
+        background-color: rgb(87, 48, 82);
+        font-size: 20px;
+        color: rgb(182, 155, 164);
+        text-align: justify;
+        }
+        .video-bio{
+          border: 6px solid dimgrey;
+          width: 400px;
+          height: 440px;
+          text-align:justify;
+          padding: 20px;
+          color: lightcoral;
+          background-color: rgb(26, 26, 34);
+          }
+          .video-details h3{
+            background-color: lavender;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 25px;
+            margin: 0px;
+            height: 30px;
+            color: blue;
+
+          }
+          
