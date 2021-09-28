@@ -216,7 +216,7 @@
                 </div>
                 <div class="footer-about">
                     <h2>SIGN UP TO OUR NEWSLETTER</h2>
-                    <form>
+                    <form onsubmit="return validateForm()">
                         <input type="text" placeholder="First Name" id="firstnamenews" onblur="validatefname()"><br>
                         <span id="errorfoot1"></span>
                         <input type="email" placeholder="Email Id" id="emailnews"  onblur="validationemail()"><br>

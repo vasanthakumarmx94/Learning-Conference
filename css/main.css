@@ -262,8 +262,10 @@ line-height: 25px;
   height: 30px;
   border: palegreen solid 2px;
   border-radius: 5px;
-  margin-top: 20px;
-  align-self: start;
+  margin-top: 10px;
+  text-align: center;
+  align-items: flex-end;
+  
 }
 .howyl-card-all{
 display:inline-flex;
